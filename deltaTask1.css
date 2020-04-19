@@ -1,0 +1,36 @@
+body{
+    background-color:rgb(58, 58, 82);
+}
+#head{
+    font-size: 4rem;
+    text-align: center
+}
+.row{
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: #eee;
+}
+.box:hover{
+    box-shadow: inset 0px 0px 0px 3px red;
+    box-sizing: border-box;
+}
+#button{
+    text-align: center;
+    padding-top: 50px;
+}
+#start{
+    text-align: center;
+    size: 25px 50px;
+    margin-right: 25px;
+}
+#reset{
+    text-align: center;
+    margin-left: 25px;
+}
+
+
