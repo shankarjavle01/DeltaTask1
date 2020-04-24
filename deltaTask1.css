@@ -1,36 +1,71 @@
 body{
-    background-color:rgb(58, 58, 82);
+    background-color:rgb(29, 119, 21);
 }
 #head{
-    font-size: 4rem;
-    text-align: center
+    font-size: 3rem;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 20px;
 }
 .row{
+    background-color: rgb(184, 194, 41);
     text-align: center;
+    border-collapse: collapse;
 }
 .box{
     display: inline-block;
     border: 1px solid black;
+    border-radius: 10px;
+    border-spacing: 0px;
     width: 100px;
     height: 100px;
     background-color: #eee;
+    text-size-adjust: 100;
 }
 .box:hover{
     box-shadow: inset 0px 0px 0px 3px red;
-    box-sizing: border-box;
+    box-sizing: content-box;
 }
-#button{
+#controls{
     text-align: center;
-    padding-top: 50px;
+    padding: 25px 0px 25px 0px;
 }
 #start{
-    text-align: center;
-    size: 25px 50px;
-    margin-right: 25px;
+    box-sizing: content-box;
+    height: 40px;
+    width: 80px;
+    font-size: 150%;
+    margin-right: 40px;
 }
 #reset{
+    box-sizing: content-box;
+    height: 40px;
+    width: 80px;
+    font-size: 150%;
+    margin-left: 40px;
+}
+
+#win{
     text-align: center;
-    margin-left: 25px;
+    visibility: hidden;
+}
+#timer{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: inline-block;
+    height: 40px;
+    margin-right: 40px;
+}
+#bestTime{
+    text-align: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: inline-block;
+    height: 40px;
+    margin-left: 40px;
+}
+
 }
 
 
