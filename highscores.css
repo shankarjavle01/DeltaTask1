@@ -1,0 +1,30 @@
+.container{
+    text-align: center;
+    margin-top: 150px;
+}
+#highScoresList{
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 100px;
+}
+.high-score{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+}
+
+.button{
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 20px;
+    height: 40px;
+    width: 80px;
+    font-size: 150%;
+}
+#highscore{
+    font-weight: bolder;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 2rem;
+}
